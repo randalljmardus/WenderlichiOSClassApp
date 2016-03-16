@@ -41,12 +41,11 @@ import Foundation
                 age = number
             }
         }
-        
+                
         func printInfo() {
             print("\(firstName) \(lastName) is \(age) years old")
         }
     }
-
 
 
 
