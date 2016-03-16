@@ -8,6 +8,16 @@
 
 import Foundation
 
-var newPerson = Person()
-newPerson.enterInfo()
-newPerson.printInfo()
+var response: String
+
+repeat {
+    var newPerson = Person()
+    newPerson.enterInfo()
+    newPerson.printInfo()
+
+    print("Do you want to enter another name? (y/n)")
+    response = input()
+
+} while(response == "y")
+
+
