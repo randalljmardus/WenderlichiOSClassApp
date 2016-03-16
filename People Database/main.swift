@@ -24,4 +24,6 @@ repeat {
 
 print("Number of people in the database: \(people.count)")
 
-
+for onePerson in people {
+    onePerson.printInfo()
+}
