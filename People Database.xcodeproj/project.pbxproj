@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1598C1841C99C6C7006BAAB4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598C1831C99C6C7006BAAB4 /* main.swift */; };
+		1598C18B1C99C6F2006BAAB4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598C18A1C99C6F2006BAAB4 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1598C1801C99C6C7006BAAB4 /* People Database */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "People Database"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1598C1831C99C6C7006BAAB4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1598C18A1C99C6F2006BAAB4 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		1598C1771C99C6C7006BAAB4 = {
 			isa = PBXGroup;
 			children = (
+				1598C18A1C99C6F2006BAAB4 /* Person.swift */,
 				1598C1821C99C6C7006BAAB4 /* People Database */,
 				1598C1811C99C6C7006BAAB4 /* Products */,
 			);
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1598C18B1C99C6F2006BAAB4 /* Person.swift in Sources */,
 				1598C1841C99C6C7006BAAB4 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

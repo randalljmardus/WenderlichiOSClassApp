@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var newPerson = Person()
+newPerson.enterInfo()
+newPerson.printInfo()
